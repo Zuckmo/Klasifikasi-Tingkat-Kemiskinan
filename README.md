@@ -4,7 +4,8 @@ Domain yang dipilih untuk proyek *machine learning* ini adalah **Pertanian**, de
 
 ### Latar Belakang
 
-![foto apel](https://i.ibb.co/GWr1G0Q/dataset-cover-1.jpg)
+Gambar 1. Mushroom ![image](https://github.com/user-attachments/assets/5050a667-ef24-4e0c-b889-e5f46b21fdc8)
+
 
 Jamur merupakan organisme yang umum ditemukan dan sering dimanfaatkan sebagai bahan pangan. Namun, tidak semua jenis jamur aman untuk dikonsumsi karena ada yang beracun dan bisa menyebabkan keracunan serius bahkan kematian. Identifikasi jamur yang akurat sangat penting, tetapi sulit dilakukan karena tidak ada aturan sederhana atau rumus pasti untuk membedakan jamur yang dapat dimakan dan yang beracun. Seiring meningkatnya kegiatan berburu jamur, kebutuhan akan metode identifikasi yang cepat dan akurat menjadi sangat penting. Teknologi machine learning menawarkan solusi yang menjanjikan untuk klasifikasi jamur berdasarkan fitur fisiknya.
 
@@ -103,7 +104,7 @@ Cara Kerja:
 - Semakin tinggi nilai chi-square, semakin besar kontribusi fitur tersebut terhadap prediksi kelas.
 - Fitur dengan nilai chi-square rendah dianggap tidak relevan dan bisa dihapus.
 
-gambar fitur terpilih ![image](https://github.com/user-attachments/assets/f77df58a-3361-4f38-9e3d-347f2093c459)
+Gambar 2. Fitur terpilih ![image](https://github.com/user-attachments/assets/f77df58a-3361-4f38-9e3d-347f2093c459)
 
 
 ## Modeling
@@ -155,14 +156,7 @@ Kekurangan:
 - Logistic Regression memiliki keseimbangan terbaik antara kelas 0 (edible) dan kelas 1 (poisonous).
 
 
-Tabel 3. Hasil Accuracy
-![image](https://github.com/user-attachments/assets/e67928f0-0ff3-438b-8adc-d510b159ca27)
-
-![Plot Accuracy](https://i.ibb.co/wMPKmm4/akhirkata.png)
-
-Gambar 3. Visualisasi Accuracy Model
-
-Dilihat dari _Tabel 3. Hasil Accuracy_ dan _Gambar 3. Visualisasi Accuracy Model_ tersebut dapat diketahui bahwa model dengan algoritma _KNN_ memiliki Accuracy yang lebih tinggi dengan accuracy `90%` . Untuk itu model tersebut yang akan dipilih untuk digunakan. Diharapkan dengan model yang telah dikembangan dapat memprediksi kualitas apel dengan baik menggunakan _K-Nearest Neighbors (KNN)_. Alasan mengapa metode _KNN_ yang dipilih karena _KNN_ adalah algoritma yang sangat sederhana dibandingkan dengan _Extra Trees Classifier_. Hal ini membuatnya lebih mudah untuk dipahami, diimplementasikan, dan diinterpretasikan. _KNN_ juga tidak memiliki banyak parameter yang perlu dioptimalkan, sehingga lebih mudah untuk digunakan.
+Gambar 3. Perbandingan Akurasi Model ![image](https://github.com/user-attachments/assets/f64a6d78-9e3d-47b3-8df8-7fac39528533)
 
 
 
@@ -171,14 +165,11 @@ Dilihat dari _Tabel 3. Hasil Accuracy_ dan _Gambar 3. Visualisasi Accuracy Model
 
 
 ## Referensi
-1. Sarnita Sadya.(2022). Produksi Apel Indonesia Sebanyak 509.544 Ton pada 2021.
-
-2. Lomo, Christine P., et al. "Daya Terima Panelist terhadap Kualitas Cider Apel dalam Meningkatkan Nilai Gizi Pangan sebagai Imunitas Tubuh di Pandemi Covid-19." Agrista: Jurnal Ilmiah Mahasiswa Agribisnis UNS, vol. 4, no. 1, 2020, pp. 550-556
-3. Afriansyah, M., Saputra, J., Sa’adati, Y., & Valian Yoga Pudya Ardhana. (2023). Optimasi Algoritma Nai?ve Bayes Untuk Klasifikasi Buah Apel Berdasarkan Fitur Warna RGB. Bulletin of Computer Science Research, 3(3), 242-249.
-4. Subramanian, D. (2019). A Simple Introduction to K-Nearest Neighbors Algorithm. Towards Data Science. https://towardsdatascience.com/a-simple-introduction-to-k-nearest-neighbors-algorithm-b3519ed98e
-5. Wood, T. -.What is a Random Forest?. DeepAI. https://deepai.org/machine-learning-glossary-and-terms/random-forest
-6. Gandhi, R. (2018). Support Vector Machine — Introduction to Machine Learning Algorithms: SVM model from scratch. Towards Data Science. https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
-7. Gandhi, R. (2018). Naive Bayes Classifier. Towards Data Science. https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c
-8. Jason Brownlee. (2021). How to Develop an Extra Trees Ensemble with Python. https://machinelearningmastery.com/extra-trees-ensemble-with-python/
+1. Machine Learning for Mushroom Classification – Towards Data Science - https://towardsdatascience.com/machine-learning-on-mushroom-dataset-6d9853435d3e
+2. Zhang, Y., Liu, Q., Wang, X., & Zhao, H. (2022). Mushroom classification using deep convolutional neural networks. arXiv preprint arXiv:2210.10351. https://arxiv.org/abs/2210.10351
+3. Arifianto, Y. A., Djamaluddin, M., & Rahman, A. (2022). Improving Mushroom Classification Accuracy Using Transfer Learning with AlexNet. Applied Sciences, 12(7), 3409. https://www.mdpi.com/2076-3417/12/7/3409
+4. Tianmitrapap, J., & Viyanon, S. (2025). Comparison of Five Supervised Machine Learning Algorithms for Mushroom Classification. Thailand Statistician, 23(1), 45–62. https://li01.tci-thaijo.org/index.php/tstj/article/view/258636
+5. Rianti, A., Anwar, A., & Desanti, F. A. (2023). Klasifikasi Jamur Layak Konsumsi Menggunakan Algoritma Decision Tree. Jurnal Artificial Intelligence dan Komputasi, 3(2), 85–94. https://jurnal.polibatam.ac.id/index.php/JAIC/article/view/4087
+6. GeeksforGeeks. (2021). Feature Selection using Chi-Square Test. GeeksforGeeks.org. https://www.geeksforgeeks.org/feature-selection-using-chi-square-test
 
 _
