@@ -27,7 +27,7 @@ Tujuan dari proyek ini adalah:
 - Meningkatkan kesadaran dan keselamatan masyarakat dalam konsumsi jamur.
 
 ### Solution Statements
-- Mengumpulkan dan membersihkan dataset jamur yang berisi lebih dari 8.000 sampel dari 23 spesies.
+- Mengumpulkan dan membersihkan dataset jamur yang berisi lebih dari 8.000 sampel.
 - Melakukan eksplorasi data untuk memahami fitur-fitur fisik jamur yang ada.
 - Menerapkan teknik machine learning seperti Logistic Regression, Naive Bayes, atau Random Forest untuk membangun model klasifikasi.
 - Melakukan evaluasi dan tuning model untuk mendapatkan akurasi terbaik.
